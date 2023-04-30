@@ -91,6 +91,10 @@ writeStream.on('finish', () => {
 })
 ```
 
+## Piping and Chaining Streams
+
+Piping is a technique used to connect the output of one stream to the input of another stream. Chaining is the process of connecting multiple streams together using pipes. In the example above, we used piping and chaining to compress a file.
+
 ## Error Handling
 
 ```js
